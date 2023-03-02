@@ -8,10 +8,14 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    overflow-x:  hidden;
+}
+
 .row {
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 8px;
 }
 
@@ -49,7 +53,7 @@ nav {
 
 .landingpage {
     background-color: #1f2937;
-    padding: 5rem 0;
+    padding: 10rem 0 ;
 }
 
 .landingtitle {
@@ -60,13 +64,12 @@ nav {
 
 .land__wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .landdescription {
     color: #f9FAf8;
     padding: 1rem 0;
+    font-size: 18px;
 }
 
 .lside {
@@ -74,8 +77,12 @@ nav {
 }
 
 .rside, .wrapper {
+    
     width: 50%;
-    margin: 3rem;
+    height: 15rem;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .landup {
@@ -157,7 +164,11 @@ nav {
 /*call to action */
 
 .call {
-    height: 300px;
+    height: 350px;
+    position: relative;
+    left: 7%;
+    display: flex;
+    align-items: center;
 }
 
 .call-container {
@@ -165,18 +176,32 @@ nav {
     color: #e5e7eb;
     height: 9rem;
     width: 51rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
 }
 
 .action {
-    padding: 3rem;
-    justify-content: center;
-    align-items: center;
     width: 50%;
 }
 
-.btnsign {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.signup {
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 4px;
+    padding: 8px 2rem;
+    color: #e5e7eb;
+
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 100px;
+    display: grid;
+    place-content: center;
 }
