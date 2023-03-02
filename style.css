@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+nav {
+    background-color: #1f2937;
+}
+
+/*NAV*/
+
+.nav__container {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9FAf8;
+}
+
+.nav__links {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav__link {
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 8px;
+}
+
+/*LANDINGPAGE*/
+
+.landingpage {
+    background-color: #1f2937;
+    padding: 5rem 0;
+}
+
+.landingtitle {
+    font-size: 48px;
+    font-style: bold;
+    color: #f9FAf8
+}
+
+.land__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landdescription {
+    color: #f9FAf8;
+    padding: 1rem 0;
+}
+
+.lside {
+    width: 50%;
+}
+
+.rside, .wrapper {
+    width: 50%;
+    margin: 3rem;
+}
+
+.landup {
+    background-color: #3882F6;
+    color: white;
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 8px;
+    max-width: 200px;
+    border: none;
+}
+
+/*INFO*/
+
+.infotitle {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-style: bold;
+    padding: 3rem 0;
+}
+
+.infos {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 10rem;
+    justify-content: center;
+    padding: 0 0 90px 0;
+    margin: 1rem;
+}
+
+.info__img-wrapper {
+    border: solid #3882F6 4px;
+    height: 10rem;
+    border-radius: 1rem;
+    width: 9rem;
+}
+
+.info__description {
+    padding: 6px;
+    width: 9rem;
+    text-align: center;
+}
+
+/*QUOTE*/
+
+#quote {
+    background-color: #e5e7eb;
+    height: 375px;
+}
+
+.quote {
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.quote1 {
+    font-size: 36px;
+    font-style: light italic;
+    width: 50%;
+}
+
+.quote__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+/*call to action */
+
+.call {
+    height: 300px;
+}
+
+.call-container {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    height: 9rem;
+    width: 51rem;
+}
+
+.action {
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.btnsign {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
